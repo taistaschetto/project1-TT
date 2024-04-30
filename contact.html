@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img src="/project1-TT/img/logos/circle.svg" alt="Circle-logo" />
+      </div>
+      <nav class="header-nav-bar">
+        <ul class="header-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+      <button>Contact Us</button>
+    </header>
+    <section>
+        <h1>Contact Us</h1>
+        <form action="submit-form.php" method="post">
+            <label for="fullname">Full Name*</label>
+            <input type="text" name="user_name" id="name" value="Enter your full name" required>
+            <label for="email">Email</label>
+            <input type="text" name="user-mail" id="email" value="Enter your email address" required>
+            <label for="Phone">Phone</label>
+            <input type="text" name="user_phone" id="Phone" value="Enter your phone number" required>
+            <label for="message">Message</label>
+            <textarea name="user_message" placeholder="Write your message here..." rows="5" cols="33"></textarea>
+            <button class="submit-btn">Submit</button>
+       </form>
+    </section>
+    <footer class="footer">
+        <div>
+          <img
+            class="footer-logo"
+            src="/project1-TT/img/logos/circle.svg"
+            alt="Circle-logo"
+          />
+          <p class="address">
+            2972 Westheimer Rs. Santa Ana,<br />
+            Illinois 85486
+          </p>
+        </div>
+        <nav class="footer-nav-bar">
+          <ul class="footer-list">
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </nav>
+      </footer>
+  </body>
 </html>

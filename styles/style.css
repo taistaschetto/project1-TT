@@ -62,9 +62,10 @@ p {
 .main-section {
   display: flex;
   margin: 50px 70px 10px 70px;
+  min-height: 800px;
 
   .main-text-div {
-    padding: 50px 0 40px 0;
+    padding: 100px 0 40px 0;
     font-size: 17px;
     width: 50%;
   }
@@ -89,22 +90,23 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 50%
+    width: 50%;
 
     .card-img {
       position: absolute;
-      max-width: 500px;
-      max-height: 500px;
-
+      max-width: 300px;
+      max-height: 220px;
+    }
       .top-left {
-        top: 0;
+        border-radius: 35px;
+        top: 70px;
         left: 0;
       }
 
       .bottom-right {
+        border-radius: 45px;
         bottom: 0;
-        right: 0;
+        right: 50px;
       }
-    }
   }
 }

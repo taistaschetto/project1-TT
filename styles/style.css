@@ -16,7 +16,7 @@ button {
   border: none;
   color: white;
   padding: 15px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 h1 {
@@ -25,9 +25,22 @@ h1 {
   color: #292e47;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #292e47;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #292e47;
+}
+
 p {
   color: #6b708d;
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .header {
@@ -120,5 +133,43 @@ p {
     display: flex;
     gap: 188px;
     filter: grayscale(100%);
+  }
+}
+
+.flashcard-section {
+  margin: 50px 70px 10px 70px;
+  width: 100%;
+
+  .flashcard-container {
+    padding-top: 20px;
+    display: flex;
+    gap: 100px;
+
+    .flashcard {
+      flex: 1;
+      max-width: 25%;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .flashcard h3 {
+      margin: 20px 20px 5px 20px;
+    }
+
+    .flashcard p {
+      margin: 5px 20px 40px 20px;
+    }
+
+    .flashcard a {
+      margin: 5px 20px 20px 20px;
+      color: #072ac8;
+    }
+    .flashcard img {
+      width: 100%;
+      height: 60%;
+      object-fit: cover;
+    }
   }
 }

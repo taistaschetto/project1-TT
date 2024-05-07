@@ -154,17 +154,18 @@ p {
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    .flashcard h3 {
-      margin: 20px 20px 5px 20px;
+    .flashcard h3{
+        margin: 20px 20px 5px 20px;
     }
 
-    .flashcard p {
-      margin: 5px 20px 40px 20px;
+    .flashcard p{
+        margin: 5px 20px 40px 20px;
     }
 
     .flashcard a {
-      margin: 5px 20px 20px 20px;
-      color: #072ac8;
+        margin: 5px 20px 20px 20px;
+        color: #072ac8;
+    
     }
     .flashcard img {
       width: 100%;
@@ -172,4 +173,8 @@ p {
       object-fit: cover;
     }
   }
+}
+
+.testimonial-section{
+    
 }

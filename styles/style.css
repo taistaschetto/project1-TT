@@ -97,16 +97,28 @@ p {
       max-width: 300px;
       max-height: 220px;
     }
-      .top-left {
-        border-radius: 35px;
-        top: 70px;
-        left: 0;
-      }
+    .top-left {
+      border-radius: 35px;
+      top: 70px;
+      left: 0;
+    }
 
-      .bottom-right {
-        border-radius: 45px;
-        bottom: 0;
-        right: 50px;
-      }
+    .bottom-right {
+      border-radius: 45px;
+      bottom: 0;
+      right: 50px;
+    }
+  }
+}
+
+.logos-section {
+  margin: 100px 70px 100px 70px;
+
+  .logos-list {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 188px;
+    filter: grayscale(100%);
   }
 }

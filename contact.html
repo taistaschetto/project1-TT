@@ -20,19 +20,48 @@
       </nav>
       <button>Contact Us</button>
     </header>
-    <section>
-        <h1>Contact Us</h1>
-        <form action="submit-form.php" method="post">
-            <label for="fullname">Full Name*</label>
-            <input type="text" name="user_name" id="name" value="Enter your full name" required>
+    <section class="contact-us">
+      <h1>Contact Us</h1>
+      <form action="submit-form.php" method="post">
+        <label class="label" for="fullname">Full Name*</label>
+        <input
+          type="text"
+          name="user_name"
+          id="name"
+          value="Enter your full name"
+          required
+        />
+        <div class="half-div-inputs">
+          <div class="input-group">
             <label for="email">Email</label>
-            <input type="text" name="user-mail" id="email" value="Enter your email address" required>
+            <input
+              type="email"
+              name="user-mail"
+              id="email"
+              placeholder="Enter your email address"
+              required
+            />
+          </div>
+          <div class="input-group">
             <label for="Phone">Phone</label>
-            <input type="text" name="user_phone" id="Phone" value="Enter your phone number" required>
-            <label for="message">Message</label>
-            <textarea name="user_message" placeholder="Write your message here..." rows="5" cols="33"></textarea>
-            <button class="submit-btn">Submit</button>
-       </form>
+            <input
+              type="tel"
+              name="user_phone"
+              id="Phone"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+        </div>
+        <label for="message">Message</label>
+        <textarea
+          name="user_message"
+          placeholder="Write your message here..."
+          rows="15"
+          cols="33"
+        ></textarea>
+        <button class="submit-btn">Submit</button>
+      </form>
     </section>
     <footer class="footer">
       <div class="company-info">

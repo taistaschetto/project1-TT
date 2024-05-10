@@ -136,6 +136,7 @@ p {
   }
 }
 
+/* Styles for Services Flashcards is included: */
 .flashcard-section {
   margin: 50px 70px 70px 70px;
   width: 100%;
@@ -143,7 +144,7 @@ p {
   .flashcard-container {
     padding-top: 20px;
     display: flex;
-    gap: 100px;
+    gap: 80px;
 
     .flashcard {
       flex: 1;
@@ -152,6 +153,7 @@ p {
       flex-direction: column;
       background-color: white;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
     }
 
     .flashcard h3 {
@@ -166,11 +168,26 @@ p {
       margin: 5px 20px 20px 20px;
       color: #072ac8;
     }
-    .flashcard img {
+    .flashcard-img {
       width: 100%;
       height: 60%;
       object-fit: cover;
     }
+
+    .services-img-container {
+      background-color: rgba(236, 247, 255);
+      margin: 20px;
+      border-radius: 50px;
+      height: 70px;
+      width: 70px;
+
+      .services-img {
+        padding: 15px;
+        width: 40px;
+        
+      }
+    }
+    
   }
 }
 
@@ -186,30 +203,30 @@ p {
   text-align: center;
   min-height: 700px;
 
-    .avatar {
+  .avatar {
     position: absolute;
-    width: 150px; 
-    height: 150px; 
+    width: 150px;
+    height: 150px;
   }
-  
+
   .top-left {
-    top: 40px; 
-    left: 60px; 
+    top: 40px;
+    left: 60px;
   }
-  
+
   .top-right {
-    top: 40px; 
-    right: 60px; 
+    top: 40px;
+    right: 60px;
   }
-  
+
   .bottom-left {
-    bottom: 40px; 
-    left: 60px; 
+    bottom: 40px;
+    left: 60px;
   }
-  
+
   .bottom-right {
-    bottom: 40px; 
-    right: 60px; 
+    bottom: 40px;
+    right: 60px;
   }
 
   .testimonial-h2 {
@@ -223,27 +240,27 @@ p {
     margin: 100px 150px 150px;
   }
 
-  .testimonial-profile{
+  .testimonial-profile {
     display: flex;
     justify-content: center;
     gap: 10px;
 
-    .profile-name{
-      color: #A2D6F9;
+    .profile-name {
+      color: #a2d6f9;
       font-size: 15px;
       text-align: left;
       margin: 0;
       margin-top: 5px;
     }
 
-    .profile-company{
+    .profile-company {
       color: white;
       font-size: 10px;
       text-align: left;
       margin: 0;
     }
 
-    .profile-img{
+    .profile-img {
       width: 50px;
       height: 50px;
       border-radius: 60px;

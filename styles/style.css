@@ -136,7 +136,7 @@ p {
   }
 }
 
-/* Styles for Services Flashcards is included: */
+/* Styles for Services Flashcards are included: */
 .flashcard-section {
   margin: 50px 70px 70px 70px;
   width: 100%;
@@ -318,5 +318,39 @@ p {
     .subscribe-btn {
       width: 200px;
     }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 70px 10px 75px;
+  font-size: 15px;
+  color: #6b708d;
+
+  .footer-logo {
+    width: 100px;
+  }
+  .address {
+    font-size: 17px;
+  }
+
+  .footer-nav-bar {
+    width: 50%;
+  }
+  .footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    gap: 50px 20px;
+
+   
+  }
+
+  .footer-list li {
+    flex: 1;
+    min-width: 180px;
   }
 }

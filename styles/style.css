@@ -438,10 +438,87 @@ p {
 }
 
 #projectDetails {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #6b708d;
-  
+
   img {
     margin-top: 25px;
+  }
+}
+
+/* Tried to add responsive design */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p,
+  .newsletter-text,
+  .testimonial-p,
+  .services-flashcard-p {
+    font-size: 16px;
+  }
+
+  .header {
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+
+    .header-logo{
+      align-items: center;
+    }
+
+    .header-nav-bar {
+      .header-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+
+  .flashcard-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section,
+  .logos-section,
+  .flashcard-section,
+  .testimonial-section,
+  .newsletter-section,
+  .footer,
+  .blog-section,
+  .contact-us {
+    margin: 20px;
+  }
+
+  .main-photo-div,
+  .flashcard-img,
+  .services-img-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .half-div-inputs,
+  .input-group,
+  .subscribe,
+  .footer-list {
+    flex-direction: column;
+  }
+
+  .input-group,
+  .subscribe-btn {
+    width: 100%;
+  }
+
+  .subscribe-btn,
+  .newsletter-input,
+  .input-photo {
+    margin-top: 10px;
   }
 }

@@ -4,45 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/style.css" />  </head>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
   <body>
     <header class="header">
-        <div class="header-logo">
-          <img src="../img/logos/circle.svg" alt="Circle-logo" />
-        </div>
-        <nav class="header-nav-bar">
-          <ul class="header-list">
-            <li><a href="/home.html" target="_blank">Home</a></li>
-            <li><a href="/project.html" target="_blank">Projects</a></li>
-            <li><a href="#" target="_blank">Services</a></li>
-          </ul>
-        </nav>
-        <button class="contactButton">Contact Us</button>
-      </header>
+      <div class="header-logo">
+        <img src="../img/logos/circle.svg" alt="Circle-logo" />
+      </div>
+      <nav class="header-nav-bar">
+        <ul class="header-list">
+          <li><a href="/home.html" target="_blank">Home</a></li>
+          <li><a href="/project.html" target="_blank">Projects</a></li>
+          <li><a href="#" target="_blank">Services</a></li>
+        </ul>
+      </nav>
+      <button class="contactButton">Contact Us</button>
+    </header>
     <div class="blog-section" id="projectDetails"></div>
-    <script src="../src/1.js"></script>
-    <footer class="footer">
-        <div class="company-info ">
+    <section class="flashcard-section">
+      <h2>Other Projects</h2>
+      <div class="flashcard-container">
+        <div class="flashcard">
           <img
-            class="footer-logo"
-            src="../img/logos/circle.svg"
-            alt="Circle-logo"
+            class="flashcard-img"
+            src="./img/projects-section/2.jpg"
+            alt="abstract-img-4"
           />
-          <p class="address">
-            2972 Westheimer Rs. Santa Ana,<br />
-            Illinois 85486
-          </p>
+          <h3>Orbit</h3>
+          <p>UI Design</p>
+          <a href="#">Learn more</a>
         </div>
-        <nav class="footer-nav-bar">
-          <ul class="footer-list">
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="/project.html" target="_blank">Projects</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </nav>
-      </footer>
+        <div class="flashcard">
+          <img
+            class="flashcard-img"
+            src="./img/projects-section/3.jpg"
+            alt="abstract-img-5"
+          />
+          <h3>Purify</h3>
+          <p>UI/UX Design</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="flashcard">
+          <img
+            class="flashcard-img"
+            src="./img/projects-section/2.jpg"
+            alt="abstract-img-4"
+          />
+          <h3>CryptoPie</h3>
+          <p>App Development</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter-section">
+      <h2 class="newsletter-title">Do you have any questions?</h2>
+      <p class="newsletter-text">Let us help you!</p>
+      <div class="subscribe">
+        <div class="input-section">
+          <div class="input-photo">
+            <img
+              src="./img/newsletter/icon/mail.svg"
+              alt="mail-icon"
+              class="mail-icon"
+            />
+          </div>
+          <input
+            class="newsletter-input"
+            type="email"
+            name="userEmail"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="company-info">
+        <img
+          class="footer-logo"
+          src="../img/logos/circle.svg"
+          alt="Circle-logo"
+        />
+        <p class="address">
+          2972 Westheimer Rs. Santa Ana,<br />
+          Illinois 85486
+        </p>
+      </div>
+      <nav class="footer-nav-bar">
+        <ul class="footer-list">
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="/project.html" target="_blank">Projects</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="../src/1.js"></script>
   </body>
 </html>

@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const contactBtn = document.getElementsByClassName('contactButton');
-    if (contactBtn) {
-      contactBtn.addEventListener('click', function() {
-        window.location.href = 'contact.html'; // Adjust the URL as needed
-      });
-    }
-  });
- 
+    const contactBtns = document.getElementsByClassName('contactButton');
+    Array.from(contactBtns).forEach((btn) => {
+        btn.addEventListener('click', function() {
+            window.location.href = 'contact.html'; // Adjust the URL as needed
+        });
+    });
+});
   

@@ -1,13 +1,13 @@
-<script>
-    window.onload = function() {
-      fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects') 
-        .then(response => response.json())
-        .then(data => {
-          const projects = data.slice(0, 3);
-          projects.forEach((project, index) => {
-            console.log(`Project ${index + 1}:`, project.name);
-          });
-        })
-        .catch(error => console.error('Error fetching data:', error));
-    };
-    </script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div id="projectDetails"></div>
+    <script src="./1.js"></script>
+  </body>
+</html>

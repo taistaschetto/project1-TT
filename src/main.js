@@ -43,27 +43,3 @@ document.addEventListener('DOMContentLoaded', function() {
       form.submit();
     });
   });
-
-
-
-
-
-/* const rootElement = document.getElementById('root'); 
-
-projects.forEach(project => {
-  const projectElement = document.createElement('div');
-  projectElement.innerHTML = `
-    <h2>${project.name}</h2>
-    <p>${project.description}</p>
-    <p>${project.content}</p>
-    <img src="${project.image}" alt="${project.name}">
-    <p>Completed on: ${project.completed_on}</p>
-  `;
-  rootElement.appendChild(projectElement);
-});
-
-const specificProject = data.find(project => project.uuid === "1");
-if (specificProject) {
-}
-
- */

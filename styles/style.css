@@ -99,7 +99,7 @@ p {
   }
   .main-photo-div {
     position: relative;
-    background-image: url("./img/hero-section/hero-image.png");
+    background-image: url("../img/hero-section/hero-image.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -194,7 +194,7 @@ p {
   flex-direction: column;
   justify-content: center;
   background-color: #292e47;
-  background-image: url(./img/testimonial-section/orbit.png);
+  background-image: url(../img/testimonial-section/orbit.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;

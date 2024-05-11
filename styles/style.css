@@ -436,3 +436,12 @@ p {
     margin-top: 30px;
   }
 }
+
+#projectDetails {
+  font-family: 'Roboto';
+  color: #6b708d;
+  
+  img {
+    margin-top: 25px;
+  }
+}
